@@ -15,7 +15,9 @@ Water potability is a critical factor in ensuring public health. This app allows
 ## Features
 
 **User-friendly Interface:** Built with Streamlit, the app provides an intuitive and easy-to-use interface.
+
 **Real-time Prediction:** Users can input water quality parameters and get instant predictions on water potability.
+
 **Model Insights:** The app uses a Random Forest Classifier, which is known for its accuracy and robustness in classification tasks.
 
 ### Installation
@@ -23,14 +25,14 @@ Water potability is a critical factor in ensuring public health. This app allows
 To run this app locally, follow these steps:
 
 ## Clone the Repository:
-```
-git clone https://github.com/flubber-lab/Potable-Water-Predictor.git
-cd water-potability-prediction```
 
-Set Up a Virtual Environment (optional but recommended):
+`git clone https://github.com/flubber-lab/Potable-Water-Predictor.git
+cd water-potability-prediction`
 
-```python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate` ```
+## Set Up a Virtual Environment (optional but recommended):
+
+`python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate` `
 
 ## Install Dependencies:
 
@@ -47,17 +49,22 @@ Open your web browser and go to http://localhost:8501 to use the app.
 **Usage**
 
 **Input Parameters:** Enter the values for the various water quality parameters in the input fields provided.
-Predict: Click the "Predict" button to get the prediction on whether the water is potable.
-Result: The app will display whether the water is safe for drinking or not.
+
+**Predict:** Click the "Calculate" button to get the prediction on whether the water is potable.
+
+**Result:** The app will display whether the water is safe for drinking or not.
 Model Training
 
 The Random Forest Classifier was trained using the water_potability.csv dataset. The dataset contains various water quality parameters and a target variable indicating whether the water is potable (1) or not (0).
-```
+
 ### Steps for Model Training:
 
 **Data Preprocessing:** Handle missing values, normalize data, and split the dataset into training and testing sets.
+
 **Model Training:** Train a Random Forest Classifier on the training data.
+
 **Model Evaluation:** Evaluate the model's performance using metrics such as accuracy, precision, recall, and F1-score.
+
 **Model Saving:** Save the trained model using joblib or pickle for later use in the Streamlit app.
 
 ### Example Code for Model Training:
