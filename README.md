@@ -1,4 +1,4 @@
-### Water Potability Predictor App
+## Water Potability Predictor App
 
 Welcome to the Water Potability Predictor App! This application is designed to predict whether a given water sample is potable (safe for drinking) based on various water quality parameters. The app is built using Streamlit and utilizes a Random Forest Classifier model trained on the water_potability.csv dataset.
 
@@ -20,7 +20,7 @@ Water potability is a critical factor in ensuring public health. This app allows
 
 **Model Insights:** The app uses a Random Forest Classifier, which is known for its accuracy and robustness in classification tasks.
 
-### Installation
+## Installation
 
 To run this app locally, follow these steps:
 
@@ -47,7 +47,7 @@ source venv/bin/activate `
 
 Open your web browser and go to http://localhost:8501 to use the app.
 
-**Usage**
+## Usage
 
 **Input Parameters:** Enter the values for the various water quality parameters in the input fields provided.
 
@@ -58,7 +58,7 @@ Model Training
 
 The Random Forest Classifier was trained using the water_potability.csv dataset. The dataset contains various water quality parameters and a target variable indicating whether the water is potable (1) or not (0).
 
-### Steps for Model Training:
+## Steps for Model Training:
 
 **Data Preprocessing:** Handle missing values, normalize data, and split the dataset into training and testing sets.
 
@@ -68,7 +68,7 @@ The Random Forest Classifier was trained using the water_potability.csv dataset.
 
 **Model Saving:** Save the trained model using joblib or pickle for later use in the Streamlit app.
 
-### Example Code for Model Training:
+## Example Code for Model Training:
 
 ```
 import pandas as pd
