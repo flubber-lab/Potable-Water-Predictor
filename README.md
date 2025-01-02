@@ -24,25 +24,26 @@ Water potability is a critical factor in ensuring public health. This app allows
 
 To run this app locally, follow these steps:
 
-## Clone the Repository:
+**Clone the Repository:**
 
 `git clone https://github.com/flubber-lab/Potable-Water-Predictor.git
+
 cd water-potability-prediction`
 
-## Set Up a Virtual Environment (optional but recommended):
+**Set Up a Virtual Environment (optional but recommended):**
 
 `python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate` `
+source venv/bin/activate `
 
-## Install Dependencies:
+**Install Dependencies:**
 
 `pip install -r requirements.txt`
 
-## Run the App:
+**Run the App:**
 
 `streamlit run app.py`
 
-## Access the App:
+**Access the App:**
 
 Open your web browser and go to http://localhost:8501 to use the app.
 
