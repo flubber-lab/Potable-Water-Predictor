@@ -26,14 +26,15 @@ To run this app locally, follow these steps:
 
 **Clone the Repository:**
 
-`git clone https://github.com/flubber-lab/Potable-Water-Predictor.git
+```git clone https://github.com/flubber-lab/Potable-Water-Predictor.git
 
-cd water-potability-prediction`
-
+cd water-potability-prediction
+```
 **Set Up a Virtual Environment (optional but recommended):**
 
-`python -m venv venv
-source venv/bin/activate `
+```python -m venv venv
+source venv/bin/activate 
+```
 
 **Install Dependencies:**
 
@@ -100,4 +101,8 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f'Model Accuracy: {accuracy:.2f}')
 
 # Save the model
-pickle.dump(model, 'water_potability_model.pkl')```
+pickle.dump(model, 'water_potability_model.pkl')
+```
+## Data Source
+
+https://figshare.com/articles/dataset/HydroWASTE_version_1_0/14847786/1?file=31910714
